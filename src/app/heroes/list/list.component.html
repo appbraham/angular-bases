@@ -2,7 +2,7 @@
 
 <button
 *ngIf="heroNames.length > 0"
-  (click)="removeLastHeroHeroe()" class="btn btn-outline-danger"><span class="bi-trash me-2"></span>Borrar último héroe
+  (click)="removeLastHero()" class="btn btn-outline-danger"><span class="bi-trash me-2"></span>Borrar último héroe
 </button>
 
 <div *ngIf="deletedHero; else nothingWasDeleted">

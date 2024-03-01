@@ -10,8 +10,7 @@ export class ListComponent {
   public heroNames: string[] = ['Spiderman', 'Ironman', 'Hulk', 'She Hulk', 'Thor'] ;
   public deletedHero: string = '';
 
-  removeLastHeroHeroe():void {
-    if( this.heroNames.length > 0 )
-    this.deletedHero += this.heroNames.pop() + ' ';
+  removeLastHero():void {
+    this.deletedHero += this.heroNames.pop();
   }
 }
