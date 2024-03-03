@@ -15,4 +15,12 @@ export class ListComponent {
     }
   ];
 
+  onDeleteCharacter(index: number):void {
+    // TODO: Emitir el ID del personaje
+    this.characterList.splice(index, 1);
+    console.log(this.characterList);
+
+
+  }
+
  }
